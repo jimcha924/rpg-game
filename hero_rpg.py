@@ -76,7 +76,7 @@ def main():
         print("What do you want to do?")
         print("1. fight zombie")
         print("2. do nothing")
-        print("3. flee")
+        print("3. run away!!")
         print("> ", end=' ')
         raw_input = input()
         if raw_input == "1":
@@ -87,7 +87,7 @@ def main():
         elif raw_input == "2":
             zombie.Attack(hero)
         elif raw_input == "3":
-            print("Goodbye.")
+            print("Brave Sir Robin ran away!")
             break
         else:
             print("Invalid input {}".format(raw_input))
